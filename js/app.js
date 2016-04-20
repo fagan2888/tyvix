@@ -1,7 +1,7 @@
 $(document).ready(function() {
     //show modals
-    $(".fa-star").click(function() {
-        var loc = $(this).attr("title");
+    $(".star").click(function() {
+        var loc = $(this).attr("alt");
         loc = loc+".html";
         $.get( loc, function( data ) {
             $( ".modal" ).html(data).fadeIn(200);

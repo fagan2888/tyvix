@@ -46,6 +46,11 @@ section {
         padding-bottom:2.5em;
         img {
             display:none;
+        &.star {
+            cursor:pointer;
+            display:inline-block;
+            margin-left:4px;
+            }
         }
     }
 }
@@ -67,10 +72,6 @@ section {
         right:5px;
         cursor:pointer;
     }
-}
-
-img.links {
-   cursor:pointer; 
 }
 
 //Desktop styles
