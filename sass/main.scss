@@ -9,4 +9,14 @@
     display:none;
     background:#fff;
     padding:20px;
+    .fa-times {
+        position:absolute;
+        top:5px;
+        right:5px;
+        cursor:pointer;
+    }
+}
+
+img.links {
+   cursor:pointer; 
 }
