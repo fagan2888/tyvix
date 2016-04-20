@@ -9,6 +9,7 @@ $(document).ready(function() {
     })
     //dismiss modals
     $(".fa-times").click(function() {
-        $(".modal").fadeOut();
+        console.log("click!!!");
+        $(".modal").hide();
     })
 });
