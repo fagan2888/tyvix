@@ -89,7 +89,6 @@ section {
         padding-bottom:100px;
     }
     section {
-        background-image:url(/imgs/art1background.svg);
         background-repeat:no-repeat;
         background-position:bottom left;
         background-size:cover;
@@ -105,6 +104,9 @@ section {
                 width:565px;
             }        
         }
+    &.section1 {
+        background-image:url(/imgs/art1background.svg);
+    }
     &.section2 {
         background-image:url(/imgs/art2.svg);
         min-height:1295px;
