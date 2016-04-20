@@ -1,3 +1,41 @@
+body {
+  font-family: 'Lintel-Regular';
+  font-size: 16px;
+  color: #4d555b;
+  margin: 0;
+  padding: 50px 0 0 0; }
+
+h1 {
+  text-transform: uppercase;
+  color: #89b3ad;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 1.75em; }
+  h1.purple {
+    color: #9a5b97; }
+  h1.grey {
+    color: #90a1ae; }
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding-bottom: 2.5em; }
+
+section {
+  width: 100%; }
+  section .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 90%;
+    margin: auto; }
+    section .container img {
+      display: none; }
+
 .modal {
   width: 90%;
   height: 80%;
@@ -18,7 +56,26 @@
 img.links {
   cursor: pointer; }
 
-/* font info */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 38px; }
+
+  h1.right {
+    text-align: right;
+    padding-bottom: 40px; }
+
+  .logo {
+    width: 561px;
+    padding-bottom: 100px; }
+
+  section {
+    background-image: url(/imgs/art1background.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    min-height: 580px; }
+    section .container img {
+      display: block; } }
 /* FONTS BEGIN
 ---------------------------------------------------------------------------------*/
 @font-face {
