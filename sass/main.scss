@@ -43,6 +43,7 @@ section {
         display: flex;
         width:90%;
         margin:auto;
+        padding-bottom:2.5em;
         img {
             display:none;
         }
@@ -92,6 +93,7 @@ img.links {
         background-position:bottom left;
         background-size:cover;
         min-height:580px;
+        margin-bottom:75px;
         .container {
             width:1165px;
             img {
@@ -102,7 +104,10 @@ img.links {
                 width:565px;
             }        
         }
-
+    &.section2 {
+        background-image:url(/imgs/art2.svg);
+        min-height:1295px;
+    }
     }
 }
 

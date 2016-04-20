@@ -32,7 +32,8 @@ section {
     display: -webkit-flex;
     display: flex;
     width: 90%;
-    margin: auto; }
+    margin: auto;
+    padding-bottom: 2.5em; }
     section .container img {
       display: none; }
 
@@ -74,14 +75,18 @@ img.links {
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
-    min-height: 580px; }
+    min-height: 580px;
+    margin-bottom: 75px; }
     section .container {
       width: 1165px; }
       section .container img {
         display: block;
         margin-right: 10px; }
       section .container .content {
-        width: 565px; } }
+        width: 565px; }
+    section.section2 {
+      background-image: url(/imgs/art2.svg);
+      min-height: 1295px; } }
 /* FONTS BEGIN
 ---------------------------------------------------------------------------------*/
 @font-face {
