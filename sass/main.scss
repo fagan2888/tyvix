@@ -76,6 +76,7 @@ img.links {
 @media (min-width: 1025px) {
     h1 {
         font-size:38px;
+        width:1165px;
     }
     h1.right {
         text-align:right;
@@ -92,8 +93,13 @@ img.links {
         background-size:cover;
         min-height:580px;
         .container {
+            width:1165px;
             img {
                 display:block;
+                margin-right:10px
+            }
+            .content {
+                width:565px;
             }        
         }
 

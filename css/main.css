@@ -58,7 +58,8 @@ img.links {
 
 @media (min-width: 1025px) {
   h1 {
-    font-size: 38px; }
+    font-size: 38px;
+    width: 1165px; }
 
   h1.right {
     text-align: right;
@@ -74,8 +75,13 @@ img.links {
     background-position: bottom left;
     background-size: cover;
     min-height: 580px; }
-    section .container img {
-      display: block; } }
+    section .container {
+      width: 1165px; }
+      section .container img {
+        display: block;
+        margin-right: 10px; }
+      section .container .content {
+        width: 565px; } }
 /* FONTS BEGIN
 ---------------------------------------------------------------------------------*/
 @font-face {
