@@ -14,7 +14,6 @@ body {
 h1 {
     text-transform: uppercase;
     color:$teal;
-    width:90%;
     margin:auto;
     padding-bottom:20px;
     font-size:1.75em;
@@ -29,22 +28,35 @@ h1 {
 .logo {
     display:block;
     margin:auto;
-    width:90%;
+    max-width:90%;
     padding-bottom:2.5em;
+    width:400px;
+}
+
+.scrim {
+    position:fixed;
+    z-index: 50;
+    background:rgba(0,0,0,.4);
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
 }
 
 section {
-    width:100%;
+    width:90%;
+    margin:auto;
     .container {
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        width:90%;
-        margin:auto;
+        border:1x solid red;
         padding-bottom:2.5em;
         align-items: flex-start;
+        flex-direction: column;
         img {
             display:none;
         &.star {
@@ -52,21 +64,33 @@ section {
             display:inline-block;
             margin-left:4px;
             }
+        &.show {
+            display:block;
+        }
         }
     }
+&.section7 img.aa-logo {
+    width:30%;
+    height:30%;
+    margin:auto;
+    position: relative;
+    left:35%;
+    padding-bottom:1.25em;
+}
 }
 
 .modal {
-    width:90%;
-    height:80%;
-    top:10%;
+    //width:80%;
+    //height:80%;
+    top:0;
     position:absolute;
     z-index:100;
-    border:2px solid #333;
-    left:5%;
+    left:0;
     display:none;
     background:#fff;
+    border:8px solid #c5ced6;
     padding:20px;
+    overflow: auto;
     .fa-times {
         position:absolute;
         top:5px;
@@ -77,6 +101,20 @@ section {
 
 //Desktop styles
 @media (min-width: 1025px) {
+    .modal {
+        width:90%;
+        height:80%;
+        top:10%;
+        position:absolute;
+        z-index:100;
+        border:8px solid #c5ced6;
+        left:5%;
+        display:none;
+        background:#fff;
+        padding:20px;
+        box-shadow: 0px 0px 10px #ccc;
+    }
+    
     h1 {
         font-size:38px;
         width:1165px;
@@ -95,19 +133,23 @@ section {
         background-size:cover;
         min-height:580px;
         margin-bottom:75px;
+        position: relative;
+        width:100%;
         .container {
-            width:1165px;
+            width:1165px;    
+            flex-direction: row;     
+            margin:auto; 
             img {
                 display:block;
-                margin-right:10px
+                margin-right:60px
             }
             .content {
                 width:565px;
             }        
-        .right {
-            border:1px solid red;
         }
-        }
+    &.right {
+        padding-left:600px;
+    }
     &.section1 {
         background-image:url(/imgs/art1background.svg);
     }
@@ -119,18 +161,37 @@ section {
         background-image:url(/imgs/art3background.svg);
         background-position:bottom right;
         background-size: contain;
+        img {
+            margin-bottom:100px;
+        }
     }
     &.section4 {
         background-image:url(/imgs/art4.svg);
         background-position:bottom right;
         background-size: contain;   
-        min-height:800px;
+        min-height:1000px;
     }
         &.section5 {
-        background-image:url(/imgs/art5.svg);
-        background-position:top left;
-        background-size: contain;   
         min-height:800px;
+    }
+    &.section6 {
+         background-image:url(/imgs/art6.svg);
+        background-position:bottom right;
+        background-size: contain;   
+        min-height:1200px;       
+    }
+        &.section7 {
+         background-image:url(/imgs/art7.svg);
+        background-position:bottom right;
+        background-size: contain;   
+        min-height:1200px;    
+        img.aa-logo {
+            position:absolute;
+            bottom:0;
+            left:150px;
+            width:150px;
+            height:150px;
+        }   
     }
     }
 }
