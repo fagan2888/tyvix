@@ -103,8 +103,8 @@ section {
 @media (min-width: 1025px) {
     .modal {
         width:90%;
-        height:80%;
-        margin-top:2%;
+        height:auto;
+        margin-top:1%;
         position:absolute;
         z-index:100;
         border:8px solid #c5ced6;
