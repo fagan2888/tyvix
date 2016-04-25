@@ -77,6 +77,8 @@ section {
     top: 5px;
     right: 5px;
     cursor: pointer; }
+  .modal .content {
+    padding: 1.25em; }
 
 @media (min-width: 1025px) {
   .modal {

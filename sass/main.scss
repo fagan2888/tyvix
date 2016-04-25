@@ -80,8 +80,6 @@ section {
 }
 
 .modal {
-    //width:80%;
-    //height:80%;
     top:0;
     position:absolute;
     z-index:100;
@@ -96,6 +94,9 @@ section {
         top:5px;
         right:5px;
         cursor:pointer;
+    }
+    .content {
+        padding:1.25em;
     }
 }
 
