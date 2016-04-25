@@ -42,7 +42,6 @@ section {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    border: 1x solid red;
     padding-bottom: 2.5em;
     align-items: flex-start;
     flex-direction: column; }
