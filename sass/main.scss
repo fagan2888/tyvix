@@ -61,7 +61,8 @@ section {
         &.star {
             cursor:pointer;
             display:inline-block;
-            margin-left:4px;
+            margin-left:2px;
+            margin-right:2px;
             }
         &.show {
             display:block;
@@ -139,7 +140,7 @@ section {
             width:1165px;    
             flex-direction: row;     
             margin:auto; 
-            img {
+            img:not(.star) {
                 display:block;
                 margin-right:60px
             }
@@ -171,7 +172,7 @@ section {
         background-image:url(/imgs/art3background.svg);
         background-position:bottom right;
         background-size: contain;
-        img {
+        img:not(.star) {
             margin-bottom:100px;
         }
     }
@@ -197,10 +198,10 @@ section {
         min-height:800px;    
         img.aa-logo {
             position:absolute;
-            bottom:0;
+            bottom:200px;
             left:150px;
-            width:150px;
-            height:150px;
+            width:75px;
+            height:75px;
         }   
     }
     }

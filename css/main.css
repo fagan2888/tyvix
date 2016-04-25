@@ -50,7 +50,8 @@ section {
       section .container img.star {
         cursor: pointer;
         display: inline-block;
-        margin-left: 4px; }
+        margin-left: 2px;
+        margin-right: 2px; }
       section .container img.show {
         display: block; }
   section.section7 img.aa-logo {
@@ -117,7 +118,7 @@ section {
       width: 1165px;
       flex-direction: row;
       margin: auto; }
-      section .container img {
+      section .container img:not(.star) {
         display: block;
         margin-right: 60px; }
       section .container .content {
@@ -137,7 +138,7 @@ section {
       background-image: url(/imgs/art3background.svg);
       background-position: bottom right;
       background-size: contain; }
-      section.section3 img {
+      section.section3 img:not(.star) {
         margin-bottom: 100px; }
     section.section4 {
       background-image: url(/imgs/art4.svg);
@@ -158,10 +159,10 @@ section {
       min-height: 800px; }
       section.section7 img.aa-logo {
         position: absolute;
-        bottom: 0;
+        bottom: 200px;
         left: 150px;
-        width: 150px;
-        height: 150px; } }
+        width: 75px;
+        height: 75px; } }
 /* FONTS BEGIN
 ---------------------------------------------------------------------------------*/
 @font-face {

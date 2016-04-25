@@ -17,6 +17,7 @@ $(document).ready(function() {
                 })     
         })
         .fail(function() {
+            $(".modal, .scrim").hide();
             alert("Sorry, something went wrong with that request. Please try again");
         })
     })
