@@ -104,6 +104,9 @@ section {
             .content {
                 width:565px;
             }        
+        .right {
+            border:1px solid red;
+        }
         }
     &.section1 {
         background-image:url(/imgs/art1background.svg);
@@ -111,6 +114,23 @@ section {
     &.section2 {
         background-image:url(/imgs/art2.svg);
         min-height:1295px;
+    }
+    &.section3 {
+        background-image:url(/imgs/art3background.svg);
+        background-position:bottom right;
+        background-size: contain;
+    }
+    &.section4 {
+        background-image:url(/imgs/art4.svg);
+        background-position:bottom right;
+        background-size: contain;   
+        min-height:800px;
+    }
+        &.section5 {
+        background-image:url(/imgs/art5.svg);
+        background-position:top left;
+        background-size: contain;   
+        min-height:800px;
     }
     }
 }
