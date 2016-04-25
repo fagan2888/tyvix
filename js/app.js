@@ -9,7 +9,8 @@ $(document).ready(function() {
             $( ".modal" ).html(data).fadeIn(200).css("top",pos);
         })
         .done(function() {
-            console.log("completed task");
+                //init mathjax again
+                MathJax.Hub.Typeset();
                //dismiss modals
                 $(".fa-times").click(function() {
                     $(".modal, .scrim").hide();

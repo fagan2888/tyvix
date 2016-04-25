@@ -83,7 +83,7 @@ section {
   .modal {
     width: 90%;
     height: 80%;
-    top: 10%;
+    margin-top: 2%;
     position: absolute;
     z-index: 100;
     border: 8px solid #c5ced6;
@@ -91,7 +91,7 @@ section {
     display: none;
     background: #fff;
     padding: 20px;
-    box-shadow: 0px 0px 10px #ccc; }
+    box-shadow: 0px 0px 10px #000; }
 
   h1 {
     font-size: 38px;
