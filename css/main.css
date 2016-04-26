@@ -90,16 +90,20 @@ section {
     cursor: pointer; }
   .modal .content {
     padding: 1.25em; }
+  .modal section {
+    min-height: 100px;
+    margin-bottom: 0px; }
 
 @media (min-width: 1025px) {
   .modal {
-    width: 90%;
+    width: 1000px;
     height: auto;
     margin-top: 1%;
     position: absolute;
     z-index: 100;
     border: 8px solid #c5ced6;
-    left: 5%;
+    left: 50%;
+    margin-left: -500px;
     display: none;
     background: #fff;
     padding: 20px;
