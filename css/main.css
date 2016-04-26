@@ -75,7 +75,7 @@ section {
 
 .modal {
   top: 0;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   left: 0;
   display: none;
@@ -94,9 +94,9 @@ section {
 @media (min-width: 1025px) {
   .modal {
     width: 90%;
-    height: auto;
+    height: 60%;
     margin-top: 1%;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     border: 8px solid #c5ced6;
     left: 5%;
