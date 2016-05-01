@@ -107,15 +107,23 @@ section {
     background:#fff;
     border:8px solid #c5ced6;
     padding:20px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     .fa-times {
         position:absolute;
-        top:0px;
-        right:0px;
+        top:4px;
+        right:4px;
         cursor:pointer;
     }
+    .container {
+        width:100%;
+    }
     .content {
-        padding:1.25em;
+        padding:0 1.25em 0 1.25em;
+        h3, p {
+            padding-top:0;
+            margin-top:0;
+        }
     }
     section {
         min-height:100px;
