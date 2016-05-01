@@ -95,6 +95,10 @@ section {
     cursor: pointer; }
   .modal .container {
     width: 100%; }
+    .modal .container.noflex {
+      display: block; }
+      .modal .container.noflex .content {
+        width: 95%; }
   .modal .content {
     padding: 0 1.25em 0 1.25em; }
     .modal .content h3, .modal .content p {
