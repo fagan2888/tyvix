@@ -214,6 +214,7 @@ section {
         background-image:url(/imgs/art3background.svg);
         background-position:bottom right;
         background-size: contain;
+        margin-bottom:25px;
         img:not(.star) {
             margin-bottom:100px;
         }
@@ -224,8 +225,9 @@ section {
         background-size: contain;   
         min-height:860px;
     }
-        &.section5 {
+    &.section5 {
         min-height:800px;
+        margin-bottom:0;
     }
     &.section6 {
          background-image:url(/imgs/art6.svg);
