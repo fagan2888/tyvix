@@ -172,7 +172,9 @@ section {
       background-size: contain;
       margin-bottom: 25px; }
       section.section3 img:not(.star) {
-        margin-bottom: 100px; }
+        margin-bottom: 100px;
+        display: block;
+        width: 90%; }
     section.section4 {
       background-image: url(/imgs/art4.svg);
       background-position: bottom right;
