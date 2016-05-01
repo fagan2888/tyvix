@@ -192,11 +192,17 @@ section {
         padding-left:600px;
     }
     &.thirty-seventy {
+        .content {
+            width:70%;
+        }
         .content:first-child {
             width:30%;
         }
     }
     &.seventy-thirty {
+        .content {
+            width:30%;
+        }
         .content:first-child {
             width:70%;
         }

@@ -156,7 +156,11 @@ section {
         width: 565px; }
     section.right {
       padding-left: 600px; }
+    section.thirty-seventy .content {
+      width: 70%; }
     section.thirty-seventy .content:first-child {
+      width: 30%; }
+    section.seventy-thirty .content {
       width: 30%; }
     section.seventy-thirty .content:first-child {
       width: 70%; }
