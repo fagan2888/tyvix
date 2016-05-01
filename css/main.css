@@ -181,7 +181,7 @@ section {
       background-image: url(/imgs/art4.svg);
       background-position: bottom right;
       background-size: contain;
-      min-height: 860px; }
+      min-height: 760px; }
     section.section5 {
       min-height: 800px;
       margin-bottom: 0; }
@@ -189,7 +189,7 @@ section {
       background-image: url(/imgs/art6.svg);
       background-position: bottom right;
       background-size: contain;
-      min-height: 1200px; }
+      min-height: 1020px; }
     section.section7 {
       background-image: url(/imgs/art7.svg);
       background-position: -500px 0px;
