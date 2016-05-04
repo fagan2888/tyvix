@@ -239,7 +239,7 @@ section {
   src: url(/assets/webfonts/26F6A9_3_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26F6A9_3_0.woff) format("woff"), url(/assets/webfonts/26F6A9_3_0.ttf) format("truetype"), url(/assets/webfonts/26F6A9_3_0.svg#wf) format("svg"); }
 @font-face {
   font-family: 'HalisGR-Thin';
-  src: url(/assets/webfonts/26F6A9_4_0.eot);
+  srhttps://app.cloudcannon.com/editor#/site/20395/browserc: url(/assets/webfonts/26F6A9_4_0.eot);
   src: url(/assets/webfonts/26F6A9_4_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26F6A9_4_0.woff) format("woff"), url(/assets/webfonts/26F6A9_4_0.ttf) format("truetype"), url(/assets/webfonts/26F6A9_4_0.svg#wf) format("svg"); }
 @font-face {
   font-family: 'HalisGR-ThinItalic';
@@ -251,10 +251,6 @@ section {
   src: url(/assets/webfonts/26AD8C_0_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26AD8C_0_0.woff) format("woff"), url(/assets/webfonts/26AD8C_0_0.ttf) format("truetype"); }
 @font-face {
   font-family: 'Lintel-Regular';
-  src: url(/assets/webfonts/26AD8C_1_0.eot);
-  src: url(/assets/webfonts/26AD8C_1_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26AD8C_1_0.woff) format("woff"), url(/assets/webfonts/26AD8C_1_0.ttf) format("truetype"); }
-@font-face {
-  font-family: 'Lintel';
   src: url(/assets/webfonts/26AD8C_1_0.eot);
   src: url(/assets/webfonts/26AD8C_1_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26AD8C_1_0.woff) format("woff"), url(/assets/webfonts/26AD8C_1_0.ttf) format("truetype"); }
 /*# sourceMappingURL=main.css.map */
