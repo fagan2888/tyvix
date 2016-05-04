@@ -253,4 +253,8 @@ section {
   font-family: 'Lintel-Regular';
   src: url(/assets/webfonts/26AD8C_1_0.eot);
   src: url(/assets/webfonts/26AD8C_1_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26AD8C_1_0.woff) format("woff"), url(/assets/webfonts/26AD8C_1_0.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Lintel';
+  src: url(/assets/webfonts/26AD8C_1_0.eot);
+  src: url(/assets/webfonts/26AD8C_1_0.eot?#iefix) format("embedded-opentype"), url(/assets/webfonts/26AD8C_1_0.woff) format("woff"), url(/assets/webfonts/26AD8C_1_0.ttf) format("truetype"); }
 /*# sourceMappingURL=main.css.map */
