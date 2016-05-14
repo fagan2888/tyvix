@@ -27,7 +27,7 @@ $(document).ready(function() {
     })
     .done(function() {
             //dismiss modals
-            $(".fa-times").click(function() {
+            $(".fa-times, button").click(function() {
                 $(".modal.intro, .scrim").hide();
             })     
     })
