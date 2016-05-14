@@ -126,6 +126,10 @@ section {
       width: 650px;
       top: 20px;
       margin-left: -312.5px; }
+      .modal.intro button {
+        padding: 2%;
+        margin: 40px auto 0px auto;
+        display: block; }
 
   h1 {
     font-size: 38px;
